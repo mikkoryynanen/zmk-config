@@ -10,11 +10,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &trans  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &trans  &kp Y      &kp U      &kp I      &kp O    &kp P     &kp SINGLE_QUOTE
-&kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &trans  &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp DQT
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &trans  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp QUESTION
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &trans  &kp SPACE  &kp ENTER  &mo 2      &trans   &trans
+&kp ESC    &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &trans  &kp N6     &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB    &kp Q      &kp W         &kp E         &kp R   &kp T        &trans  &kp Y      &kp U      &kp I      &kp O    &kp P     &kp SINGLE_QUOTE
+&kp CAPS   &kp A      &kp S         &kp D         &kp F   &kp G        &trans  &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp DQT
+&kp LSHFT  &kp Z      &kp X         &kp C         &kp V   &kp B        &trans  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp QUESTION
+&trans     &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &trans  &kp SPACE  &kp ENTER  &mo 2      &trans   &trans
             >;
         };
 
@@ -24,7 +24,7 @@
 &trans                            &kp APOSTROPHE   &trans          &trans           &trans           &trans             &trans  &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans                            &kp TILDE        &trans          &trans           &trans           &trans             &trans  &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &rgb_ug RGB_COLOR_HSB(57,100,50)  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE                        &trans           &trans          &trans           &trans           &trans             &trans  &trans           &trans           &trans      &trans     &trans
+&trans                            &trans           &trans          &trans           &trans           &trans             &trans  &trans           &trans           &trans      &trans     &trans
             >;
         };
 
